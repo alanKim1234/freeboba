@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<style>
+h1 {
+    text-align: center;
+    font-family:monospace;
+}
+body {
+    background-color:aliceblue;
+}
+
+.flex_three{ 
+    display: flex;
+    align-items: left;
+}
+
+.flex_one {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flex_two{ 
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.skill_starters_sums {
+    width: 200px;
+    height: 375px;
+    background-color:azure;
+    border: 5px outset #00A4BD;
+    color: #2D3E50;
+    text-align: center;
+    line-height: 50%;
+    flex: 1;
+}
+
+.sums {
+    width: 200px;
+    height: 250px;
+    background-color:azure;
+    border: 5px outset #00A4BD;
+    color: #2D3E50;
+    text-align: center;
+    line-height: 50%;
+    flex: 1;
+}
+
+.abilities {
+    width: 200px;
+    height: 250px;
+    background-color:azure;
+    border: 5px outset #00A4BD;
+    color: #2D3E50;
+    text-align: center;
+    line-height: 50%;
+    flex: 2;
+}
+
+.runes_1 {
+    width: 200px;
+    height: 250px;
+    background-color:azure;
+    border: 5px outset #00A4BD;
+    color: #2D3E50;
+    text-align: center;
+    line-height: 50%;
+    flex: 1;
+    div:nth-of-type(1) {flex-grow: 1;}
+}
+
+.runes_2 {
+    width: 200px;
+    height: 250px;
+    background-color:azure;
+    border: 5px outset #00A4BD;
+    color: #2D3E50;
+    text-align: center;
+    line-height: 50%;
+    flex: 1;
+    div:nth-of-type(1) {flex-grow: 1;}
+}
+
+.item_build {
+    width: 200px;
+    height: 375px;
+    background-color:azure;
+    border: 5px outset #00A4BD;
+    color: #2D3E50;
+    text-align: center;
+    line-height: 50%;
+    flex: 3;
+}
+
+
+img {
+    vertical-align: middle;
+}
+
+</style>
+
+<html>
+<title> alonkeysbuilds </title>
+
+<h1> Yone Highest Winrate Build</h1>
+
+<div class="flex_one">
+
+<div class="abilities"> 
+    <h2 style="font-family:monospace">Skill Order</h2>
+    <img src="skill_order.png" alt="order"
+        width="450">
+</div>
+
+<div class="runes_1">
+    <h4 style="font-family:monospace">Primary Runes</h4>
+    <img src="rune_s.png" alt="order"
+        width="200">
+</div>
+
+<div class="runes_2">
+    <h4 style="font-family:monospace">Secondary Runes</h4>
+    <img src="rune_p.png" alt="order"
+        width="200">
+</div>
+
+</div>
+
+
+<div class="flex_two">
+    <div class="skill_starters_sums">
+        <h4 style="font-family:monospace">Skill Priority</h4>
+        <img src="yoneQ.png" alt="yone Q"
+            width="50"
+            height="50"
+            vertical-align: sub>
+        <body>-></body>
+        <img src="yoneE.png" alt="yone E"
+            width="50"
+            height="50">
+        <body>-></body> 
+        <img src="yoneW.png" alt="yone W"
+            width="50"
+            height="50">
+        <pre>Q   ->   W   ->   E</pre>
+
+        <h4 style="font-family:monospace">Summoner Spells</h4>
+            <img src="flash.png" alt="flash"
+                width="50"
+                height="50">
+
+            <img src="tp.png" alt="tp"
+                width="50"
+                height="50">
+            <pre>  Flash  Teleport</pre>
+
+        <h4 style="font-family:monospace">Starters</h4>
+            <img src="doran_shield.png" alt="d_shield"
+                width="50"
+                height="50">
+
+            <img src="pot.png" alt="pot"
+                width="50"
+                height="50">
+            <pre>Doran Shield Health Pot</pre>
+    </div>
+    <div class="item_build">
+        <h4 style="font-family:monospace">Core Build</h4>
+        <img src="build.png" alt="build"
+            width = 800px> 
+    </div>
+
+
+</div>
+</html>
